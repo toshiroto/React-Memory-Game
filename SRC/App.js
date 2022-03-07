@@ -13,52 +13,52 @@ const App = () => {
         [
         React.createElement("h1", {}, "Memory Game!"),
         React.createElement(Card, {
-          frontface: "../img/Chase",
-          backface: "../img/PAW_Patrol"
+          frontface: "Chase",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Chase",
-          backface: "../img/PAW_Patrol"
+          frontface: "Chase",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Everest",
-          backface: "../img/PAW_Patrol"
+          frontface: "Everest",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Everest",
-          backface: "../img/PAW_Patrol"
+          frontface: "Everest",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Marshal",
-          backface: "../img/PAW_Patrol"
+          frontface: "Marshal",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Marshal",
-          backface: "../img/PAW_Patrol"
+          frontface: "Marshal",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Rocky",
-          backface: "../img/PAW_Patrol"
+          frontface: "Rocky",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Rocky",
-          backface: "../img/PAW_Patrol"
+          frontface: "Rocky",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Rubble",
-          backface: "../img/PAW_Patrol"
+          frontface: "Rubble",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Rubble",
-          backface: "../img/PAW_Patrol"
+          frontface: "Rubble",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Skye",
-          backface: "../img/PAW_Patrol"
+          frontface: "Skye",
+          backface: "PAW_Patrol"
         }),
         React.createElement(Card, {
-          frontface: "../img/Skye",
-          backface: "../img/PAW_Patrol"
+          frontface: "Skye",
+          backface: "PAW_Patrol"
         })
       ]);
   };
