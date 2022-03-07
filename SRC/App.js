@@ -1,9 +1,7 @@
-const Card = (props) => {
-  return React.createElement("div", {}, [
-    React.createElement("img", {}, props.frontfase),
-    React.createElement("img", {}, props.backfase),
-  ]);
-};
+import React from "react";
+import ReactDOM from "react-dom";
+import Card from "./Card"
+
 
 const App = () => {
   return React.createElement("div", {}, [
