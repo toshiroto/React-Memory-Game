@@ -1,6 +1,6 @@
 
 import { render } from "react-dom";
-import characters from "../characters";
+import characters from "./characters";
 import Paw from "./Paw";
 
 const createCard = (character) => {
@@ -17,8 +17,9 @@ const createCard = (character) => {
 const App = () => {
   return (
     <div className="memory-game">
-        <h1>Paw Patrol Memory Game</h1>
-        {characters.map(createCard)}
+      <h1>Paw Patrol Memory Game</h1>
+      {characters.map(createCard)}
+
     </div>
   );
 }
