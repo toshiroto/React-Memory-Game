@@ -1,4 +1,4 @@
-import Paw from "paw";
+import Paw from "./Paw";
 
 const Card = props => {
   return (

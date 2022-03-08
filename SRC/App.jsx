@@ -1,4 +1,5 @@
 
+import { render } from "react-dom";
 import Card from "./Card";
 import characters from "./characters";
 
