@@ -1,11 +1,11 @@
 
 import { render } from "react-dom";
-import Card from "./Card";
-import characters from "./characters";
+import characters from "../characters";
+import Paw from "./Paw";
 
 const createCard = (character) => {
   return (
-  <Card
+  <Paw
     id={character.id}
     key={character.id}
     name={character.name}
