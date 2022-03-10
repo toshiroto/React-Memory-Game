@@ -36,6 +36,37 @@ const characters = [
     pic: Skye,
     flipped: false,
   },
+  {
+    name: "Chase",
+    pic: Chase,
+    flipped: false,
+  },
+  {
+    name: "Everest",
+    pic: Everest,
+    flipped: false,
+  },
+  {
+    name: "Marshall",
+    pic: Marshall,
+    flipped: false,
+  },
+  {
+    name: "Rocky",
+    pic: Rocky,
+    flipped: false,
+  },
+  {
+    name: "Rubble",
+    pic: Rubble,
+    flipped: false,
+  },
+  {
+    name: "Skye",
+    pic: Skye,
+    flipped: false,
+  },
+  
 ];
 
 export default characters;
