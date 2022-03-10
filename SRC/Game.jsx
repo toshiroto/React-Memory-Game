@@ -1,7 +1,10 @@
+import { useState } from "react";
 import characters from "./characters";
 import Paw from "./Paw";
 
-const Game = () => {
+function Game () {
+  const [flip, setFlip] = useState([false])
+
   return (
   <div className="memory-game">
     {characters.map((character) => (
