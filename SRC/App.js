@@ -1,19 +1,9 @@
 import { render } from "react-dom";
-import characters from "./characters";
-import Paw from "./Paw";
+import Game from "./Game";
 
 const App = () => {
   return (
-    <div className="memory-game">
-      {characters.map((character) => (
-        <Paw
-          id={character.id}
-          key={character.id}
-          name={character.name}
-          img={character.imgUrl}
-        />
-      ))}
-    </div>
+    <Game />
   );
 };
 
