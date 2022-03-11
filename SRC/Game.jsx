@@ -3,21 +3,20 @@ import characters from "./characters";
 import Paw from "./Paw";
 
 function Game () {
-  const [flip, setFlip] = useState(false)
+  const [flip, setFlip] = useState("");
 
-  const cardClick = () => {
-    setFlip(flip === true)
-  }
+  const open = () => {
+    setFlip(flip=== true)
+  };
 
   return (
   <div className="memory-game">
     {characters.map((character) => (
       <Paw
-        id={character.id}
         key={character.id}
         name={character.name}
         img={character.pic}
-        onClick={cardClick}
+        onClick={open}
       />
     ))}
   </div>

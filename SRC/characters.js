@@ -7,66 +7,41 @@ import Skye from "./img/Skye.png";
 
 const characters = [
   {
+    id: 1,
     name: "Chase",
     pic: Chase,
-    flipped: false,
+    flipped: false
   },
   {
+    id: 2,
     name: "Everest",
     pic: Everest,
-    flipped: false,
+    flipped: false
   },
   {
+    id: 3,
     name: "Marshall",
     pic: Marshall,
-    flipped: false,
+    flipped: false
   },
   {
+    id: 4,
     name: "Rocky",
     pic: Rocky,
-    flipped: false,
+    flipped: false
   },
   {
+    id: 5,
     name: "Rubble",
     pic: Rubble,
-    flipped: false,
+    flipped: false
   },
   {
+    id: 6,
     name: "Skye",
     pic: Skye,
-    flipped: false,
+    flipped: false
   },
-  {
-    name: "Chase",
-    pic: Chase,
-    flipped: false,
-  },
-  {
-    name: "Everest",
-    pic: Everest,
-    flipped: false,
-  },
-  {
-    name: "Marshall",
-    pic: Marshall,
-    flipped: false,
-  },
-  {
-    name: "Rocky",
-    pic: Rocky,
-    flipped: false,
-  },
-  {
-    name: "Rubble",
-    pic: Rubble,
-    flipped: false,
-  },
-  {
-    name: "Skye",
-    pic: Skye,
-    flipped: false,
-  },
-  
 ];
 
 export default characters;
