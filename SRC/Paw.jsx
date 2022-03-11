@@ -1,14 +1,18 @@
 
-import logo from "./img/Logo.png";
-
-
 
 const Paw = (props) => {
 
+
+  const open = () => {
+    props.click(true);
+
+  };
+
   return (
     <div className="memory-card">
-      <img className="front-face" src={props.pic} alt="Paw_img" />
-      <img className="back-face" src={logo} alt="Paw_logo" />
+      <button onClick={open}>Hola</button>
+      <img className="front-face" src={props.img} alt="Paw_img" />
+      <img className="back-face" src={props.logo} alt="Paw_logo" />
     </div>
   );
 };

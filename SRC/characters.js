@@ -4,43 +4,44 @@ import Marshall from "./img/Marshall.png";
 import Rocky from "./img/Rocky.png";
 import Rubble from "./img/Rubble.png";
 import Skye from "./img/Skye.png";
+import Logo from "./img/Logo.png"
 
 const characters = [
   {
-    id: 1,
+    key: 1,
     name: "Chase",
     pic: Chase,
-    flipped: false
+    logo: Logo,
   },
   {
-    id: 2,
+    key: 2,
     name: "Everest",
     pic: Everest,
-    flipped: false
+    logo: Logo,
   },
   {
-    id: 3,
+    key: 3,
     name: "Marshall",
     pic: Marshall,
-    flipped: false
+    logo: Logo,
   },
   {
-    id: 4,
+    key: 4,
     name: "Rocky",
     pic: Rocky,
-    flipped: false
+    logo: Logo,
   },
   {
-    id: 5,
+    key: 5,
     name: "Rubble",
     pic: Rubble,
-    flipped: false
+    logo: Logo,
   },
   {
     id: 6,
     name: "Skye",
     pic: Skye,
-    flipped: false
+    logo: Logo,
   },
 ];
 

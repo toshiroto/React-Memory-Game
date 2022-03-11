@@ -1,22 +1,23 @@
-import { useState } from "react";
+import { useState } from "react"
 import characters from "./characters";
 import Paw from "./Paw";
 
-function Game () {
-  const [flip, setFlip] = useState("");
 
-  const open = () => {
-    setFlip(flip=== true)
-  };
+function Game () {
+  const [flip, setFlip] = useState(false);
+
+  console.log(flip);
 
   return (
   <div className="memory-game">
-    {characters.map((character) => (
+    {characters.map(character => (
       <Paw
-        key={character.id}
+        key={character.key}
         name={character.name}
         img={character.pic}
-        onClick={open}
+        logo={character.logo}
+        click={setFlip}
+
       />
     ))}
   </div>
