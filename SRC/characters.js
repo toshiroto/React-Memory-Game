@@ -38,7 +38,7 @@ const characters = [
     logo: Logo,
   },
   {
-    id: 6,
+    key: 6,
     name: "Skye",
     pic: Skye,
     logo: Logo,

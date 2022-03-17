@@ -1,20 +1,32 @@
+import { useState } from "react";
 
 
-const Paw = (props) => {
+function Paw(props) {
+  const [isFlipped, setIsFlipped] = useState(false);
 
+  function handleClick() {
+    setIsFlipped(prevState => {
+      return !prevState;
+    });
+  }
 
-  const open = () => {
-    props.click(true);
-
-  };
-
+  function handleKeyDown() {
+    setIsFlipped(prevState => {
+      return !prevState;
+    });
+  }
   return (
-    <div className="memory-card">
-      <button onClick={open}>Hola</button>
-      <img className="front-face" src={props.img} alt="Paw_img" />
+    // eslint-disable-next-line jsx-a11y/no-static-element-interactions
+    <div
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      isflipped={isFlipped ? "front-face" : "back-face"}
+      className="memory-card"
+    >
+      <img className="front-face" src={props.pic} alt="Paw_img" />
       <img className="back-face" src={props.logo} alt="Paw_logo" />
     </div>
   );
-};
+}
 
 export default Paw;
